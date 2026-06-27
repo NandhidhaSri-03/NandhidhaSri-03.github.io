@@ -33,6 +33,12 @@
                 <a href="resume.pdf" target="_blank" class="nav-link resume-nav-link"><i data-lucide="file-text" style="width: 14px; height: 14px; margin-right: 4px; vertical-align: middle;"></i>Resume PDF</a>
             </nav>
             <div class="nav-actions">
+                <a href="https://github.com/NandhidhaSri-03" target="_blank" rel="noopener noreferrer" class="social-icon nav-btn" style="width: 38px; height: 38px; margin-right: 6px; border-radius: 50%;" aria-label="GitHub">
+                    <i data-lucide="github" style="width: 16px; height: 16px;"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nandhidhasri03" target="_blank" rel="noopener noreferrer" class="social-icon nav-btn" style="width: 38px; height: 38px; margin-right: 12px; border-radius: 50%;" aria-label="LinkedIn">
+                    <i data-lucide="linkedin" style="width: 16px; height: 16px;"></i>
+                </a>
                 <a href="resume.pdf" target="_blank" class="btn btn-outline nav-btn" style="padding: 8px 16px; border-radius: 20px; font-size: 0.85rem; margin-right: 8px;"><i data-lucide="file-text"></i> Resume</a>
                 <a href="#contact" class="btn btn-secondary nav-btn" style="padding: 8px 16px; border-radius: 20px; font-size: 0.85rem;">Hire Me</a>
                 <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
@@ -52,6 +58,13 @@
                         Hi, I'm <span class="highlight-text">Nandhidha Sri S</span>
                     </h1>
                     <h2 class="hero-subtitle">Computer Science Engineering Student</h2>
+                    
+                    <!-- GitHub & LinkedIn Links First (Prominent Buttons) -->
+                    <div class="hero-buttons" style="margin: 10px 0 25px 0; gap: 14px;">
+                        <a href="https://github.com/NandhidhaSri-03" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="padding: 10px 22px; border-radius: 30px; font-size: 0.9rem;"><i data-lucide="github"></i> GitHub</a>
+                        <a href="https://www.linkedin.com/in/nandhidhasri03" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="padding: 10px 22px; border-radius: 30px; font-size: 0.9rem; color: #0b0a12;"><i data-lucide="linkedin"></i> LinkedIn</a>
+                    </div>
+
                     <p class="hero-description">
                         Passionate developer specializing in Java, Web Development, and Data Analytics. I love building smart systems, designing interactive web platforms, and analyzing data to solve complex real-world challenges.
                     </p>
@@ -60,16 +73,10 @@
                         <span class="meta-item"><i data-lucide="mail"></i> nandhidha2005@gmail.com</span>
                     </div>
                     <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">View My Work <i data-lucide="arrow-right"></i></a>
+                        <a href="#projects" class="btn btn-outline">View My Work <i data-lucide="arrow-right"></i></a>
                         <a href="resume.pdf" target="_blank" class="btn btn-outline"><i data-lucide="file-text"></i> View Resume</a>
                     </div>
-                    <div class="hero-socials">
-                        <a href="https://github.com/NandhidhaSri-03" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
-                            <i data-lucide="github"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/nandhidhasri03" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
-                            <i data-lucide="linkedin"></i>
-                        </a>
+                    <div class="hero-socials" style="margin-top: 25px;">
                         <a href="mailto:nandhidha2005@gmail.com" class="social-icon" aria-label="Email">
                             <i data-lucide="mail"></i>
                         </a>
@@ -81,58 +88,8 @@
                 <div class="hero-image-wrapper">
                     <div class="image-border-glow">
                         <div class="image-inner-container">
-                            <!-- SVG Placeholder Profile Picture that matches the user's blazer photo pose -->
                             <div class="profile-placeholder">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
-                                    <defs>
-                                        <linearGradient id="avatarGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-                                            <stop offset="0%" stop-color="var(--color-primary-light)" />
-                                            <stop offset="100%" stop-color="var(--color-secondary)" />
-                                        </linearGradient>
-                                        <clipPath id="circleClip">
-                                            <circle cx="100" cy="100" r="95" />
-                                        </clipPath>
-                                    </defs>
-                                    <!-- Background -->
-                                    <circle cx="100" cy="100" r="95" fill="url(#avatarGlow)" opacity="0.15" />
-                                    <circle cx="100" cy="100" r="85" fill="#151324" stroke="url(#avatarGlow)" stroke-width="2" />
-                                    <!-- User Avatar Artwork (Stylized Professional Representation) -->
-                                    <g clip-path="url(#circleClip)">
-                                        <!-- Tech grid pattern background -->
-                                        <path d="M0,40 L200,40 M0,80 L200,80 M0,120 L200,120 M0,160 L200,160 M40,0 L40,200 M80,0 L80,200 M120,0 L120,200 M160,0 L160,200" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
-                                        <!-- Glowing circle highlight behind head -->
-                                        <circle cx="100" cy="90" r="45" fill="url(#avatarGlow)" opacity="0.25" filter="blur(10px)" />
-                                        
-                                        <!-- Blazer Torso -->
-                                        <path d="M50 200 L150 200 L145 160 C140 145, 130 140, 120 140 L80 140 C70 140, 60 145, 55 160 Z" fill="#0f0e17" stroke="#2a2740" stroke-width="1.5"/>
-                                        <path d="M85 140 L100 170 L115 140 Z" fill="#ffffff" /> <!-- White shirt collar v-neck -->
-                                        <!-- Neck -->
-                                        <rect x="92" y="115" width="16" height="26" rx="5" fill="#fbd1b7" />
-                                        <path d="M80 140 L100 175 L82 200 Z" fill="#141320" /> <!-- Blazer lapel left -->
-                                        <path d="M120 140 L100 175 L118 200 Z" fill="#141320" /> <!-- Blazer lapel right -->
-                                        
-                                        <!-- Face -->
-                                        <ellipse cx="100" cy="95" rx="30" ry="34" fill="#fbd1b7" />
-                                        <!-- Smile -->
-                                        <path d="M90 108 Q100 118 110 108" fill="none" stroke="#e07a5f" stroke-width="2" stroke-linecap="round" />
-                                        <!-- Eyes -->
-                                        <circle cx="89" cy="92" r="3" fill="#333" />
-                                        <circle cx="111" cy="92" r="3" fill="#333" />
-                                        <!-- Eyebrows -->
-                                        <path d="M82 86 Q89 83 95 87" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" />
-                                        <path d="M118 86 Q111 83 105 87" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" />
-                                        
-                                        <!-- Hair (Long dark hair tied back/neatly combed, matching professional pose) -->
-                                        <path d="M100 55 C65 55, 65 95, 68 110 C70 120, 75 125, 78 120 C78 100, 72 90, 75 80 C80 68, 90 64, 100 64 C110 64, 120 68, 125 80 C128 90, 122 100, 122 120 C125 125, 130 120, 132 110 C135 95, 135 55, 100 55 Z" fill="#1d1b24" />
-                                        <path d="M100 55 C80 55, 74 65, 82 78 C88 88, 92 84, 100 84 C108 84, 112 88, 118 78 C126 65, 120 55, 100 55 Z" fill="#15141b" />
-                                    </g>
-                                    <!-- Border shine ring -->
-                                    <circle cx="100" cy="100" r="95" fill="none" stroke="url(#avatarGlow)" stroke-width="3" opacity="0.6" />
-                                </svg>
-                            </div>
-                            <div class="image-caption">
-                                <span>Profile Photo Placeholder</span>
-                                <small>Replace with profile.jpg</small>
+                                <img src="profile.jpg" alt="Nandhidha Sri S" style="width: 100%; height: 100%; object-fit: cover;">
                             </div>
                         </div>
                     </div>
